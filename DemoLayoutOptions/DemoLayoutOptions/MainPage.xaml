@@ -4,8 +4,61 @@
              xmlns:local="clr-namespace:DemoLayoutOptions"
              x:Class="DemoLayoutOptions.MainPage">
 
-	<Label Text="Welcome to Xamarin.Forms!" 
-           VerticalOptions="Center" 
-           HorizontalOptions="Center" />
+    <!--<StackLayout Orientation="Horizontal">
+        <Button Text="Start"
+                VerticalOptions="Start">
+            
+        </Button>
+        <Button Text="Center"
+                VerticalOptions="Center">
+
+        </Button>
+        <Button Text="fill"
+                VerticalOptions="Fill">
+
+        </Button>
+        <Button Text="end"
+                VerticalOptions="End">
+
+        </Button>
+    </StackLayout>-->
+    <!--<StackLayout>
+        <BoxView Color="DarkBlue" 
+                 HeightRequest="1"/>
+        <Button Text="Start"
+                VerticalOptions="StartAndExpand"
+                Text="Start an expand"/>
+        
+        <BoxView Color="DarkBlue" 
+                 HeightRequest="1"
+                 VerticalOptions="CenterAndExpand"/>
+        <Button Text="center and expand"/>
+
+        <BoxView Color="DarkBlue" 
+                 HeightRequest="1"
+                 VerticalOptions="EndAndExpand"/>
+        <Button Text="End and expand"/>
+
+        <BoxView Color="DarkBlue" 
+                 HeightRequest="1"
+                 VerticalOptions="FillAndExpand"/>
+        <Button Text="Fill and expand"/>
+
+
+    </StackLayout>-->
+    <StackLayout BackgroundColor="DarkOrange">
+        <StackLayout BackgroundColor="AntiqueWhite">
+            <Image Source="visual.png"></Image>
+        </StackLayout>
+
+        <StackLayout BackgroundColor="Cornsilk">
+            <Image Source="visual.png"></Image>
+        </StackLayout>
+
+
+    </StackLayout>
+    
+    
+    
 
 </ContentPage>
